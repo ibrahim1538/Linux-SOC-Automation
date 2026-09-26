@@ -1,0 +1,20 @@
+[
+  {
+    "incident_id": "example-incident-id",
+    "timestamp": "2026-09-25T18:25:23.556+0000",
+    "source_ip": "127.0.0.1",
+    "username": "testuser",
+    "severity": 10,
+    "rule_id": "2502",
+    "mitre": [
+      "T1110"
+    ],
+    "abuseipdb": {
+      "abuse_confidence": 0,
+      "total_reports": 0,
+      "country": null,
+      "isp": null
+    },
+    "response": "DRY RUN: Would block source IP 127.0.0.1"
+  }
+]
