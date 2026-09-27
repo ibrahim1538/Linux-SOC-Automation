@@ -5,6 +5,7 @@ A Linux-based SOC automation project built with Wazuh and Python.
 The system monitors Wazuh alerts, detects SSH brute-force activity, extracts indicators, enriches the source IP with AbuseIPDB, sends notifications to Discord, simulates a response, and records the incident.
 ## Workflow
 
+```text
 SSH Authentication Failure
             ↓
           Wazuh
@@ -22,6 +23,7 @@ SSH Authentication Failure
       Dry-Run Response
             ↓
       Incident Logging
+```
 
 ## Features
 
